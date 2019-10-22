@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell x:Class="ShellSearchIssue.AppShell"
+       xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+       xmlns:local="clr-namespace:ShellSearchIssue"
+       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       Title="Shell Search Issue"
+       mc:Ignorable="d">
+
+    <ShellContent Title="Page One"
+                  ContentTemplate="{DataTemplate local:Page1}"
+                  Route="pageone" />
+
+</Shell>
